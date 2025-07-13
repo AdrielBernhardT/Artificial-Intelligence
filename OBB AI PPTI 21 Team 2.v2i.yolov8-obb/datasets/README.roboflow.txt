@@ -1,8 +1,8 @@
 
-OBB AI PPTI 21 Team 2 - v2 2025-07-10 3:25pm
+OBB AI PPTI 21 Team 2 - v9 2025-07-13 7:34pm
 ==============================
 
-This dataset was exported via roboflow.com on July 10, 2025 at 8:30 AM GMT
+This dataset was exported via roboflow.com on July 13, 2025 at 11:44 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,12 +17,13 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 253 images.
+The dataset includes 316 images.
 Objects are annotated in YOLOv8 Oriented Object Detection format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 640x640 (Fit within)
+* Auto-contrast via contrast stretching
 
 The following augmentation was applied to create 3 versions of each source image:
 * 50% probability of horizontal flip
