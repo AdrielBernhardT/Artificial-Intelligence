@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    margin: 2em;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.hadir {
+    color: green;
+}
+
+.tidak-hadir {
+    color: red;
+}
